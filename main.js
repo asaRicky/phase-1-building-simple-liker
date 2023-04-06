@@ -4,6 +4,10 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+const error = document.getElementById('modal');
+error.setAttribute('class','hidden');
+
+const heartIcon = document.querySelectorAll('.like-glyph')
 
 
 
